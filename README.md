@@ -1,22 +1,36 @@
-# Trees 🌳
+# Visualizador de Estructuras de Árboles en Tkinter
 
-Aplicación Python para gestión y visualización de estructuras de árboles.
+Este proyecto es una interfaz gráfica en Python que permite visualizar diferentes estructuras de árboles como:
 
+- Árbol Binario de Búsqueda (BST)
+- Árbol AVL
+- Árbol B
+- Árbol Trie
+- Árbol N-ario
 
-## Descripción
-
-Esta aplicación permite trabajar con diferentes tipos de estructuras de árboles (binarios, AVL, etc.) implementadas en Python. Incluye funcionalidades básicas para operaciones con árboles y visualización de sus estructuras.
-
-## Requisitos Previos
+## 📦 Requisitos
 
 - Python 3.8 o superior
-- pip (Gestor de paquetes de Python)
+- `tkinter` (ya viene incluido en la mayoría de las instalaciones de Python)
+- `matplotlib` (para visualización)
 
-## Instalación
+## 🚀 Instalación
 
-1. Clona el repositorio:
+Sigue estos pasos para ejecutar el programa de forma aislada con un entorno virtual:
+
 ```bash
-git clone https://github.com/maikol0629/trees.git
-cd trees
+# Clona el repositorio o descarga el proyecto
+cd nombre_del_proyecto
 
-2. Ejecuta el archivo main.py para acceder al menú interactivo
+# Crea el entorno virtual
+python3 -m venv venv
+
+# Activa el entorno virtual
+# En Linux/macOS:
+source venv/bin/activate
+
+# En Windows:
+venv\Scripts\activate
+
+# Instala las dependencias
+pip install -r requirements.txt
